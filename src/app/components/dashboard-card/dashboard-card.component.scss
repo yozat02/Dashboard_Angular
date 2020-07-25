@@ -1,7 +1,8 @@
 .card-dashborad{
     margin: 25px;
-    background-color: #003057;
-    color: #ffffff;
+    text-align: center;
+  
+  
     .card-avatar {
         margin: 20px -50px -50px -35px;
         overflow: hidden;
@@ -17,11 +18,8 @@
         }
     }
   
-    .card-body {
+    .card-body + .card-footer {
         margin-top: -15px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        width: 100%;
     }
   
     .card-footer {
