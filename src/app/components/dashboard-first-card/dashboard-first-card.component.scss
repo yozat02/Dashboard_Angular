@@ -1,7 +1,9 @@
 .card-dashborad{
     margin: 25px;
-    text-align: center;
+    text-align: left;
     border-radius: 15px;
+    background-image: linear-gradient(to right,#003057, #248ED8);
+
     .card-avatar {
         margin: 20px -50px -50px -35px;
         overflow: hidden;
@@ -35,11 +37,16 @@
     height: 50px;
   }
   .body-card{
-      padding: 20px;
+      padding: 50px;
     
   }
   .header-body{
-    background-color: #003057;
     height: 80px;
     border-radius: 15px 15px 0px 0px;
+  }
+  .img-dashboard{
+    
+    margin: -180px 0px 150px 735px;
+    overflow: hidden;
+    padding: 0;
   }

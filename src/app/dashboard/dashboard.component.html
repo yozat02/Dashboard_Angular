@@ -1,28 +1,28 @@
 <div class=" content">
     <div class=" row">
       <div class=" col-lg-8">
-        <app-dashboard-card></app-dashboard-card>
-        <app-dashboard-card></app-dashboard-card>
+        <app-dashboard-first-card Title="test" ImgSrc='../../assets/images/1_hands.svg'>
+        </app-dashboard-first-card>
+        <app-dashboard-second-card Title="test" ImgSrc='../../assets/images/2_stamp.svg'>
+          <app-hello-dashboard></app-hello-dashboard>
+        </app-dashboard-second-card>
           <div class=" row">
             <div class=" col-lg-6 col-md-12">
-              <app-dashboard-card></app-dashboard-card>
+              <app-dashboard-card Title="PORTFOLIO MODELS" ImgSrc='../../assets/images/3_books.svg'>
+                <app-portfolio-models></app-portfolio-models>
+              </app-dashboard-card>
             </div>
             <div class=" col-lg-6 col-md-12">
-              <app-dashboard-card></app-dashboard-card>
+              <app-dashboard-card Title="ASSETS UNDER MANAGEMENT" ImgSrc='../../assets/images/polygon-assets-under-management.svg'>
+                <app-under-management-card></app-under-management-card>
+              </app-dashboard-card>
             </div>
           </div>
       </div>
       <div class=" col-lg-4">
-        <div class="card card-dashborad">
-          <div class="card-avatar">
-              <a >
-                  <img class="img" src="../../../assets/images/3_books.svg" />
-              </a>
-          </div>
-          <div class="card-body">
-              <app-last-insight-card></app-last-insight-card>
-          </div>
-      </div>
+          <app-dashboard-card Title="LAST INSIGHT" ImgSrc='../../assets/images/polygon-insights.svg'>
+            <app-last-insight-card></app-last-insight-card>
+          </app-dashboard-card>
       </div>
     </div>
     
